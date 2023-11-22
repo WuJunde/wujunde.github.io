@@ -1,3 +1,3 @@
-module jundewu.github.io
+module wujunde.github.io
 
 go 1.21.0
