@@ -1,15 +1,62 @@
-## how to install
+# Junde Wu's Personal Website
 
-Just click `Use this template` to create your blog site by 
+A modern personal website built with Next.js, TypeScript, and Tailwind CSS. This site is based on [Elijah Kurien's personal website template](https://github.com/elijah0528/personal-website).
 
-![4dmtph](https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/4dmtph.png)
+## 🚀 Getting Started
 
-Create a new repository(GitHub Pages) from hugo-ladder-exampleSite to enter : `username.github.io`.
+### Development
 
-> **replace the username by your GitHub account**
+```bash
+npm install
+npm run dev
+```
 
-Then configure the GitHub page setting following:
+Visit `http://localhost:3000` to see your site.
 
-![nsrExo](https://cdn.jsdelivr.net/gh/guangzhengli/PicURL@master/uPic/nsrExo.png)
+### Build
 
-🎉🎉🎉 Open the browser and enter: https://username.github.io 🎉🎉🎉
+```bash
+npm run build
+npm start
+```
+
+## 📝 Customization
+
+### Personal Information
+
+Update your personal information in the following files:
+
+1. **lib/data.ts** - Edit experience and projects
+2. **app/page.tsx** - Update introduction text and social links
+3. **app/layout.tsx** - Update metadata and SEO information
+
+### Blog Posts
+
+Add new blog posts in `app/blog/content/` as `.mdx` files with the following frontmatter:
+
+```markdown
+---
+title: "Your Post Title"
+date: "Jan 1, 2025"
+description: "Brief description"
+slug: "your-post-slug"
+---
+
+Your content here...
+```
+
+### Avatar
+
+Replace `public/avatar.png` with your own avatar image.
+
+## 📦 Tech Stack
+
+- **Framework:** Next.js 15
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Content:** MDX with gray-matter
+- **Font:** DM Sans
+
+## 🙏 Credits
+
+Website design and template by [Elijah Kurien](https://github.com/elijah0528/personal-website)
